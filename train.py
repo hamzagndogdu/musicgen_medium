@@ -106,7 +106,7 @@ def train(
     epochs: int,
     use_wandb: bool,
     no_label: bool = False,
-    tune_text: bool = False,
+    tune_text: bool = True,
     save_step: int = None,
     grad_acc: int = 8,
     use_scaler: bool = False,
